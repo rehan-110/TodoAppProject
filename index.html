@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehans ToDo App</title>
+    <style>
+        body{
+            background-color: rgb(130 183 209);
+        }
+        h1{
+            display: inline-block;
+            position: relative;
+            left: 35%;
+            background-color: rgb(160, 117, 49);
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            border-radius: 10px;
+
+        }
+        div{
+            position: relative;
+            left: 30%;
+        }
+        #input{
+            margin-right:10px;
+            width: 30%;
+            font-size: large;
+            
+        }
+        button{
+            margin-right:10px;
+        }
+       .btn{
+        font-size: large;
+       }
+       /* ul li{
+    
+     
+      
+      
+             
+    } */
+    
+             /* ul li button{
+                
+                position: relative;
+                left: 40px;
+             } */
+              .lidiv{
+                width: 70%;
+              }
+              .lidiv button{
+position: relative;
+left: 55%;
+
+                
+               
+
+                
+
+
+              }
+             button{
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+             }
+    </style>
+</head>
+<body>
+    <h1 class="heading">To Do App</h1>
+    <div id="main">
+        <input id="input" type="text" placeholder="Enter Your List">
+        <button class="btn" onclick="addTodo()">Add ToDo</button>
+        <button class="btn" onclick="deleteAll()">Delete All</button>
+    </div>
+    <ul id="list"></ul>
+    <script src="app.js"></script>
+</body>
+</html>
